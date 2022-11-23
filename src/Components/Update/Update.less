@@ -1,0 +1,29 @@
+@import '../../assets/mixins.less';
+@import '../../assets/templates.less';
+@import '../../assets/colors.less';
+
+
+
+.update__form {
+    .contentPosition(flex, center, baseline, column);
+
+    .field {
+        @modalField();
+    }
+    .update__date {
+        margin: 20px 0;
+    }
+    .update__checkbox {
+        margin: @fieldMargin;
+        .update__check {
+            margin-left: 0.5rem;
+        }
+    }
+    .update__images .update__image{
+        width: @widthImg;
+    }
+    .update__btn {
+        margin: 30px 0 0 0;
+        .btn(@blue-color, @primary-color);
+    }
+}

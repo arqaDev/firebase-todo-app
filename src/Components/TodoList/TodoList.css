@@ -1,0 +1,1 @@
+.todoList__container{margin-top:50px;width:95%;text-align:center;border-collapse:collapse;border-radius:10px;overflow:hidden;border-spacing:0;box-shadow:0 0 5px}.todoList__container .todoList__content{display:grid;grid-template-columns:repeat(5, 1fr)}.todoList__container .todoList__content h3{background-color:#6666ff;color:#fff;padding:12px 15px}

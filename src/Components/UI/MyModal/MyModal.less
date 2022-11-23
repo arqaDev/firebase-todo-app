@@ -1,0 +1,29 @@
+@import '../../../assets/colors.less';
+@import '../../../assets/mixins.less';
+
+
+.modal__container {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(@black-color, 0.4);
+    &.active {
+        .contentPosition();
+    }
+    .modal__content {
+        background-color: @primary-color;
+        border-radius: 20px;
+        padding: 40px;
+    }
+    .modal__hide {
+        position: fixed;
+        top: 40px;
+        right: 40px;
+        font-size: 3rem;
+        color: @primary-color;
+        cursor: pointer;
+    }
+}

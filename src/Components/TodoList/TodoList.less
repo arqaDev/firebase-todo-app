@@ -1,0 +1,23 @@
+@import '../../assets/colors.less';
+@import '../../assets/templates.less';
+
+
+.todoList__container {
+    margin-top: 50px;
+    width: 95%;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    border-spacing: 0;
+    box-shadow: 0 0 5px;
+    .todoList__content {
+        @gridContent();
+        h3 {
+            background-color: @blue-color;
+            color: @primary-color;
+            padding: 12px 15px;
+        }
+    }
+    
+}
